@@ -32,7 +32,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/reports/master/_listings/reddit/ignore-reports-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/reports/master/_listings/reddit/unignore-reports-post.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
