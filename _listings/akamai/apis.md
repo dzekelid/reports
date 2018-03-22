@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/reports/master/_listings/akamai/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/reports/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-availability-start,end-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/media-reports-v1-download-delivery-dimensions-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
