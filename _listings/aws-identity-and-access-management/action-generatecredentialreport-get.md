@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GenerateCredentialReport&k=1:
+  /?Action=GenerateCredentialReport:
     get:
       summary: ' Generate Credential Report '
       description: Generates a credential report for the AWS account
