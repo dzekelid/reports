@@ -33,7 +33,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-performance-start,end-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-availability-start,end-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
