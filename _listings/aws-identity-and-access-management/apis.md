@@ -30,7 +30,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/action-generatecredentialreport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/action-getcredentialreport-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
