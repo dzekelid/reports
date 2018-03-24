@@ -26,7 +26,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
