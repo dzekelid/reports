@@ -17,8 +17,8 @@ tags:
 - Media
 - Links
 - Evangelism
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/unignore-reports-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/ignore-reports-post.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
