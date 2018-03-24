@@ -28,7 +28,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-id-delete.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
