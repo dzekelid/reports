@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/action-getcredentialreport-get.md
-- name: AWS Identity and Access Management API Generate Credential Report
-  description: Generates a credential report for the AWS account.
+- name: AWS Identity and Access Management API Get Credential Report
+  description: Retrieves a credential report for the AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/action-generatecredentialreport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/action-getcredentialreport-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
