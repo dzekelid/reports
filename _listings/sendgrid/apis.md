@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-email-get.md
-- name: SendGrid Get Suppression Spam Reports
+- name: SendGrid Delete Suppression Spam Reports Email
   description: |-
-    **This endpoint allows you to retrieve all spam reports.**
+    **This endpoint allows you to delete a specific spam report.**
 
     [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
 
@@ -49,9 +49,7 @@ apis:
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-email-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
