@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Credential Report
   version: 1.0.0
+  description: Retrieves a credential report for the AWS account.
 schemes:
 - http
 produces:
