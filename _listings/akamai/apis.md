@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Performance Reports
-  description: List Performance Reports
+- name: Akamai API List Availability Reports
+  description: List Availability Reports
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-performance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-availability-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
