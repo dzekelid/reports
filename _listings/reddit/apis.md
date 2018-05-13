@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/unignore-reports-post.md
-- name: Reddit Add Ignore Reports
-  description: Prevent future reports on a thing from causing notifications.
+- name: Reddit Add Unignore Reports
+  description: Allow future reports on a thing to cause notifications.
   image: http://www.redditstatic.com/about/assets/reddit-logo.png
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com//
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/ignore-reports-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/unignore-reports-post.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
