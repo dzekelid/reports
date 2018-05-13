@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-parameters.md
-- name: Youtube Get Reports
-  description: Retrieve your YouTube Analytics reports.
+- name: Youtube Parameters Reports
+  description: Parameters reports
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/reports-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
