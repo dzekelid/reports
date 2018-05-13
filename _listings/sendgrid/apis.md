@@ -36,22 +36,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-email-get.md
-- name: SendGrid Delete Suppression Spam Reports
-  description: "**This endpoint allows you to delete your spam reports.**\n\nThere
-    are two options for deleting spam reports: \n\n1) You can delete all spam reports
-    by setting \"delete_all\" to true in the request body. \n2) You can delete some
-    spam reports by specifying the email addresses in an array in the request body.\n\n[Spam
-    reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient
-    indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html)
-    and then their email provider reports this to SendGrid.\n\nFor more information,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html)."
+- name: SendGrid Get Suppression Spam Reports
+  description: |-
+    **This endpoint allows you to retrieve all spam reports.**
+
+    [Spam reports](https://sendgrid.com/docs/Glossary/spam_reports.html) happen when a recipient indicates that they think your email is [spam](https://sendgrid.com/docs/Glossary/spam.html) and then their email provider reports this to SendGrid.
+
+    For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Suppressions/spam_reports.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/suppression-spam-reports-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
