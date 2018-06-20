@@ -1,43 +1,78 @@
 ---
 name: APImetrics
-description: APImetrics builds on 3 years experience gained working on the challenge
-  of API abstraction and management that is critical to every App and Web Service
-  in use today.  By combining elements gained from API management tools and authentication
-  technologies, APImetrics have been able to build the first, complete, end-to-end
-  API performance test solution.  This allows developers, enterprises and API providers
-  to model complex API scenarios and provide them with real time monitoring and alerts
-  when things go wrong.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
+x-slug: apimetrics
+description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+  that gives you answers, not excuses. Find out how today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- My API Stack
-- Monitoring
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/apis.yaml
+x-alexaRank: "2264063"
+tags: Reports
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
 apis:
+- name: APIMetrics List all Reports
+  x-api-slug: apimetrics
+  description: List all Reports
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https://///reports/
+  tags: Monitoring,Reports
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-get-openapi.md
+- name: APIMetrics Create a new Report
+  x-api-slug: apimetrics
+  description: Create a new Report
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https://///reports/
+  tags: Monitoring,Reports
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-post-openapi.md
+- name: APIMetrics Delete a Report
+  x-api-slug: apimetrics
+  description: Delete a Report
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https://///reports/{id}/
+  tags: Monitoring,Reports
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reportsid-delete-openapi.md
+- name: APIMetrics Get an existing Report
+  x-api-slug: apimetrics
+  description: Get an existing Report
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https://///reports/{id}/
+  tags: Monitoring,Reports
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reportsid-get-openapi.md
+- name: APIMetrics Update an existing Report
+  x-api-slug: apimetrics
+  description: Update an existing Report
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https://///reports/{id}/
+  tags: Monitoring,Reports
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reportsid-put-openapi.md
 - name: APIMetrics
-  description: APImetrics builds on 3 years experience gained working on the challenge
-    of API abstraction and management that is critical to every App and Web Service
-    in use today
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
-  humanURL: ""
+  x-api-slug: apimetrics
+  description: API performance monitoring, Cloud Service, SLA monitoring and analysis
+    that gives you answers, not excuses. Find out how today.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
   baseURL: https:///
   tags: Reports
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-id-put.md
-- name: APIMetrics Update an existing Report
-  description: Update an existing Report
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-metrics-logo.png
-  humanURL: http://apimetrics.io
-  baseURL: https://{host}//
-  tags: Reports
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/reports-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/openapi.md
 x-common:
 - type: x-base-url
   url: https://client.apimetrics.io
@@ -45,26 +80,8 @@ x-common:
   url: http://apimetrics.io/blog/
 - type: x-blog-rss
   url: http://apimetrics.io/feed/
-- type: x-developer
-  url: https://apimetrics.readme.io/
-- type: x-github
-  url: https://github.com/APImetrics
-- type: x-pricing
-  url: http://apimetrics.io/
-- type: x-privacy
-  url: http://apimetrics.io/privacy
-- type: x-terms-of-service
-  url: http://apimetrics.io/tos
-- type: x-twitter
-  url: https://twitter.com/apimetricstats
-- type: x-website
-  url: http://apimetrics.io
-- type: x-base-url
-  url: https://client.apimetrics.io
-- type: x-blog
-  url: http://apimetrics.io/blog/
-- type: x-blog-rss
-  url: http://apimetrics.io/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/apimetrics
 - type: x-developer
   url: https://apimetrics.readme.io/
 - type: x-github
