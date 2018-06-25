@@ -4,7 +4,7 @@ description: This is a repository of reports APIs, self-contained as a Github re
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/reports.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://reports.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -46,8 +46,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/kaltura/apis.yaml
 - name: MotaWord
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/motaword/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/payrun-io/apis.yaml
 - name: Watchful
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/watchful/apis.yaml
 - name: Xero
