@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: YouTube
 x-complete: 1
@@ -137,4 +136,24 @@ paths:
           description: OK
       tags:
       - Reports
----
+  /videos/reportAbuse:
+    post:
+      summary: Add Videos Report Abuse
+      description: Report abuse for a video.
+      operationId: postVeosReportabuse
+      x-api-path-slug: videosreportabuse-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: onBehalfOfContentOwner
+        description: 'Note: This parameter is intended exclusively for YouTube content
+          partners'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Veos
+      - Reportabuse

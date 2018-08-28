@@ -87,6 +87,77 @@ paths:
       - Job
       - Reports
       - Report
+  /reports:
+    get:
+      summary: Get Reports
+      description: Retrieve your YouTube Analytics reports.
+      operationId: getReports
+      x-api-path-slug: reports-get
+      parameters:
+      - in: query
+        name: currency
+        description: The currency to which financial metrics should be converted
+      - in: query
+        name: dimensions
+        description: A comma-separated list of YouTube Analytics dimensions, such
+          as views or ageGroup,gender
+      - in: query
+        name: end-date
+        description: The end date for fetching YouTube Analytics data
+      - in: query
+        name: filters
+        description: A list of filters that should be applied when retrieving YouTube
+          Analytics data
+      - in: query
+        name: ids
+        description: Identifies the YouTube channel or content owner for which you
+          are retrieving YouTube Analytics data
+      - in: query
+        name: include-historical-channel-data
+        description: If set to true historical data (i
+      - in: query
+        name: max-results
+        description: The maximum number of rows to include in the response
+      - in: query
+        name: metrics
+        description: A comma-separated list of YouTube Analytics metrics, such as
+          views or likes,dislikes
+      - in: query
+        name: sort
+        description: A comma-separated list of dimensions or metrics that determine
+          the sort order for YouTube Analytics data
+      - in: query
+        name: start-date
+        description: The start date for fetching YouTube Analytics data
+      - in: query
+        name: start-index
+        description: An index of the first entity to retrieve
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reports
+  /videos/reportAbuse:
+    post:
+      summary: Add Videos Report Abuse
+      description: Report abuse for a video.
+      operationId: postVeosReportabuse
+      x-api-path-slug: videosreportabuse-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: onBehalfOfContentOwner
+        description: 'Note: This parameter is intended exclusively for YouTube content
+          partners'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Veos
+      - Reportabuse
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

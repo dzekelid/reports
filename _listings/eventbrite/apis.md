@@ -7,43 +7,40 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Eventbrite Get Reports Sales
-  x-api-slug: eventbrite
+- name: Eventbrite - Get Reports Sales
+  x-api-slug: reportssales-get
   description: Returns a response of the aggregate sales data.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///reports/sales/
-  tags: Reports,Sales
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/reportssales-get-openapi.md
-- name: Eventbrite Get Reports Attendees
-  x-api-slug: eventbrite
+- name: Eventbrite - Get Reports Attendees
+  x-api-slug: reportsattendees-get
   description: Returns a response of the aggregate attendees data.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///reports/attendees/
-  tags: Reports,Attendees
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/reportsattendees-get-openapi.md
-- name: Eventbrite
-  x-api-slug: eventbrite
-  description: Eventbrite brings people together through live experiences. Discover
-    events that match your passions, or create your own with online ticketing tools.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
-  humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
-  tags: Reports
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://europeana.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://eventbrite.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/eventbrite/apidescription?format=internal&ver=1351170233000
 - type: x-authentication

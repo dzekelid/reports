@@ -401,6 +401,17 @@ paths:
       tags:
       - Reports
       - ReportID
+    x-related-model:
+      summary: X-related-model Reports Report
+      description: X-related-model reports report.
+      operationId: x-related-modelReportsReport
+      x-api-path-slug: reportsreportid-xrelatedmodel
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reports
+      - ReportID
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -9,61 +9,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Automation API Node Reports List By Node
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Node Reports List By Node
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreports-get
   description: Retrieve the Dsc node report list by node id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/nodes/{nodeId}/reports
-  tags: Node, Reports, ListNode
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreports-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreports-get-openapi.md
-- name: Azure Automation API Node Reports Get
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Node Reports Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportid-get
   description: Retrieve the Dsc node report data by node id and report id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/nodes/{nodeId}/reports/{reportId}
-  tags: Node, Reports
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportid-get-openapi.md
-- name: Azure Automation API Node Reports Get Content
-  x-api-slug: azure-automation-api
+- name: AutomationManagementClient - Node Reports Get Content
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get
   description: Retrieve the Dsc node reports by node id and report id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
   humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/nodes/{nodeId}/reports/{reportId}/content
-  tags: Node, Reports, , Content
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Orchestration, Automation, Webhooks, Stack Network, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamenodesnodeidreportsreportidcontent-get-openapi.md
-- name: Azure Automation API
-  x-api-slug: azure-automation-api
-  description: Automate all of those frequent, time-consuming, and error-prone cloud
-    management tasks. Azure Automation helps you focus on work that adds business
-    value. By reducing errors and boosting efficiency, it also helps to lower your
-    operational costs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
-  humanURL: https://azure.microsoft.com/en-us/services/automation/
-  baseURL: ://management.azure.com//
-  tags: Reports
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.application.insights.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.automation.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
 - type: x-pricing

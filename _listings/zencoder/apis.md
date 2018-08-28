@@ -4,78 +4,71 @@ x-slug: zencoder
 description: Audio and video encoding/transcoding software as a service. Convert videos
   online into web and mobile formats using our cloud encoding API.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
-x-kinRank: "8"
+x-kinRank: "7"
 x-alexaRank: "596400"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Zencoder API Get Usage for VOD & Live
-  x-api-slug: zencoder-api
+- name: Zencoder - Get Usage for VOD & Live
+  x-api-slug: reportsall-get
   description: Get Usage for VOD & Live
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//reports/all
-  tags: Reports
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsall-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsall-get-openapi.md
-- name: Zencoder API Get Usage for Live
-  x-api-slug: zencoder-api
+- name: Zencoder - Get Usage for Live
+  x-api-slug: reportslive-get
   description: Get Usage for Live
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//reports/live
-  tags: Reports,Live
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportslive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportslive-get-openapi.md
-- name: Zencoder API Get Minutes Used
-  x-api-slug: zencoder-api
+- name: Zencoder - Get Minutes Used
+  x-api-slug: reportsminutes-get
   description: Get Minutes Used
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//reports/minutes
-  tags: Reports,Minutes
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsminutes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsminutes-get-openapi.md
-- name: Zencoder API Get Usage for VOD
-  x-api-slug: zencoder-api
+- name: Zencoder - Get Usage for VOD
+  x-api-slug: reportsvod-get
   description: Get Usage for VOD
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
   humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2//reports/vod
-  tags: Reports,Vod
+  baseURL: https://app.zencoder.com//api/v2
+  tags: Encoding, Video Encoding, Getting Started Example, Stack Network, SaaS, Technology,
+    Enterprise, internet, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsvod-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/reportsvod-get-openapi.md
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: Zencoders Video Encoding API allows you to seamlessly integrate your
-    application with Zencoders extremely fast and scalable encoding platform. Our
-    RESTful API is extensively documented with easy-to-use guides and detailed descriptions,
-    as well as thoroughly tested code libraries and code examples for every encoding
-    setting. Backed by an uptime SLA and live support with real encoding engineers,
-    integrating with Zencoder couldnt be easier.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
-  humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2
-  tags: Reports
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://youtube.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://zencoder.stack.network
 - type: x-base
   url: https://app.zencoder.com/api/
 - type: x-blog

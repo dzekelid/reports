@@ -1,12 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: Mattermost
 x-complete: 1
 info:
-  title: Mattermost API Reference
-  description: -api-v4-is-stable-with-the-mattermost-server-4-0-release--api-v3-was-deprecated-on-january-16th-2018-and-scheduled-for-removal-in-mattermost-v5-0--details-heretagapiv3deprecation--looking-for-the-api-v3-reference-it-has-moved-herehttpsapi-mattermost-comv3-
-  termsOfService: https://about.mattermost.com/default-terms/
-  version: 4.0.0
+  title: Mattermost
+  version: 1.0.0
 host: your-mattermost-url.com
 basePath: /api/v4
 schemes:
@@ -37,4 +34,53 @@ paths:
           description: OK
       tags:
       - Reports
----
+    post:
+      summary: Create report
+      description: |-
+        Create and save a compliance report.
+        ##### Permissions
+        Must have `manage_system` permission.
+      operationId: create-and-save-a-compliance-report-permissionsmust-have-manage-system-permission
+      x-api-path-slug: compliancereports-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Report
+  /compliance/reports/{report_id}:
+    get:
+      summary: Get a report
+      description: |-
+        Get a compliance reports previously created.
+        ##### Permissions
+        Must have `manage_system` permission.
+      operationId: get-a-compliance-reports-previously-created-permissionsmust-have-manage-system-permission
+      x-api-path-slug: compliancereportsreport-id-get
+      parameters:
+      - in: path
+        name: report_id
+        description: Compliance report GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Report
+  /compliance/reports/{report_id}/download:
+    get:
+      summary: Download a report
+      description: |-
+        Download the full contents of a report as a file.
+        ##### Permissions
+        Must have `manage_system` permission.
+      operationId: download-the-full-contents-of-a-report-as-a-file-permissionsmust-have-manage-system-permission
+      x-api-path-slug: compliancereportsreport-iddownload-get
+      parameters:
+      - in: path
+        name: report_id
+        description: Compliance report GUID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Download
+      - Report

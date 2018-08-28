@@ -7,34 +7,74 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dyn Reports on Clicks
-  x-api-slug: dyn
+- name: Dyn - Reports on Clicks
+  x-api-slug: reportsclicks-get
   description: Returns a list of links clicked for the specified account during the
     specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
-  baseURL: https:////reports/clicks
-  tags: Reports, Clicks
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicks-get-openapi.md
-- name: Dyn
-  x-api-slug: dyn
-  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
-    most reputable Email Deliverability Service.
+- name: Dyn - Unique Click Report
+  x-api-slug: reportsclicksunique-get
+  description: Returns a list of unique links clicked for the specified account during
+    the specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dynect.net
   baseURL: https:///
-  tags: Reports
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-openapi.md
+- name: Dyn - Unique Click Report
+  x-api-slug: reportsclicksunique-get
+  description: Returns a list of unique links clicked for the specified account during
+    the specified date range. Including a date range is highly recommended.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-openapi.md
+- name: Dyn - Unique Click Report
+  x-api-slug: reportsclicksunique-get
+  description: Returns a list of unique links clicked for the specified account during
+    the specified date range. Including a date range is highly recommended.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/reportsclicksunique-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://duckduckgo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dyn.stack.network
 - type: x-base
   url: https://api.dynect.net
 - type: x-blog

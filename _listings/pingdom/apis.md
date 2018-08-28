@@ -7,65 +7,133 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdo
 x-kinRank: "7"
 x-alexaRank: "5876"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Reports API Get Email Report Subscription List
-  x-api-slug: reports-api
+- name: Reports API - Get Email Report Subscription List
+  x-api-slug: apiversionreports-email-get
   description: Returns a list of email report subscriptions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
-  baseURL: |-
-    https://api.pingdom.com///
-        /api/{version}/reports.email
-  tags: Reports
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-openapi.md
-- name: Reports API Get Public Report List
-  x-api-slug: reports-api
+- name: Reports API - Get Public Report List
+  x-api-slug: apiversionreports-public-get
   description: Returns a list of public (web-based) reports.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
-  baseURL: |-
-    https://api.pingdom.com///
-        /api/{version}/reports.public
-  tags: Reports
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-openapi.md
-- name: Reports API Get Shared Reports (Banners) List
-  x-api-slug: reports-api
+- name: Reports API - Get Shared Reports (Banners) List
+  x-api-slug: apiversionreports-shared-get
   description: Returns a list of shared reports (banners).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
-  baseURL: |-
-    https://api.pingdom.com///
-        /api/{version}/reports.shared
-  tags: Reports
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-openapi.md
-- name: Reports API
-  x-api-slug: reports-api
-  description: Monitor your websites availability and performance for free with Pingdom
-    and always be the first to know when your website is down. No installation required.
+- name: Reports API - Get Email Report Subscription List
+  x-api-slug: apiversionreports-email-get
+  description: Returns a list of email report subscriptions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
   baseURL: https://api.pingdom.com//
-  tags: Reports
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-openapi.md
+- name: Reports API - Get Public Report List
+  x-api-slug: apiversionreports-public-get
+  description: Returns a list of public (web-based) reports.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-openapi.md
+- name: Reports API - Get Shared Reports (Banners) List
+  x-api-slug: apiversionreports-shared-get
+  description: Returns a list of shared reports (banners).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-openapi.md
+- name: Reports API - Get Email Report Subscription List
+  x-api-slug: apiversionreports-email-get
+  description: Returns a list of email report subscriptions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-email-get-openapi.md
+- name: Reports API - Get Public Report List
+  x-api-slug: apiversionreports-public-get
+  description: Returns a list of public (web-based) reports.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-public-get-openapi.md
+- name: Reports API - Get Shared Reports (Banners) List
+  x-api-slug: apiversionreports-shared-get
+  description: Returns a list of shared reports (banners).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apiversionreports-shared-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pinboard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pingdom.stack.network
 - type: x-base
   url: https://api.pingdom.com
 - type: x-blog

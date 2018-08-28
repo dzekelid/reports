@@ -1,0 +1,1040 @@
+{
+	"name": "Streadata.io API Gallery - Reports",
+	"description": "This is a repository of reports APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/reports.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://reports.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xero",
+			"x-api-slug": "xero",
+			"description": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg",
+			"humanURL": "http://www.xero.com/",
+			"baseURL": "https://api.xero.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zencoder",
+			"x-api-slug": "zencoder",
+			"description": "Audio and video encoding/transcoding software as a service. Convert videos online into web and mobile formats using our cloud encoding API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg",
+			"humanURL": "http://zencoder.com/",
+			"baseURL": "https://app.zencoder.com//api/v2",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Site24x7",
+			"x-api-slug": "site24x7",
+			"description": "Site24x7 offers both free & paid website monitoring services. Monitor websites remotely and receive instant email/sms alerts if your website becomes unavailable. View uptime & performance graphs of your website monitors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/481-site24x7.jpg",
+			"humanURL": "https://www.site24x7.com/",
+			"baseURL": "://www.site24x7.com./",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/site24x7/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dyn",
+			"x-api-slug": "dyn",
+			"description": "Dyn is home to the worlds most trusted DNS product suite and the worlds most reputable Email Deliverability Service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg",
+			"humanURL": "http://dynect.net",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SocialReport.com",
+			"x-api-slug": "socialreport-com",
+			"description": "Social Report is a social media management software created to help businesses grow their social media presence. Try it free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1160-socialreport-com.jpg",
+			"humanURL": "http://www.socialreport.com/social-report-api.html",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/socialreport-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TweetReach",
+			"x-api-slug": "tweetreach",
+			"description": "Powerful Twitter analytics for smart marketers, built by Union Metrics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1304-tweetreach.jpg",
+			"humanURL": "http://apidocs.tweetreach.com/wiki/API_Overview",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/tweetreach/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bugsnag",
+			"x-api-slug": "bugsnag",
+			"description": "Bugsnag monitors apps for errors that impact customers & reports all diagnostic data. By default, we save every error, so your data wont be sampled. Try it free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1314-bugsnag.jpg",
+			"humanURL": "https://www.bugsnag.com/",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/bugsnag/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "APImetrics",
+			"x-api-slug": "apimetrics",
+			"description": "API performance monitoring, Cloud Service, SLA monitoring and analysis that gives you answers, not excuses. Find out how today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg",
+			"humanURL": "http://apimetrics.io",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Watchful",
+			"x-api-slug": "watchful",
+			"description": "Watchful resulted from the need for a single, unified dashboard to easily monitor all of the web sites in our portfolios. After years of evolution, our solution has matured into a simple, complete and professional service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/watchful-li-logo.jpg",
+			"humanURL": "http://watchful.li",
+			"baseURL": "https://watchful.li//api/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/watchful/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MotaWord",
+			"x-api-slug": "motaword",
+			"description": "MotaWord is the world&rsquo;s fastest, lowest cost, cloud-based, collaborative business translation platform.MotaWord combines the efforts of talented human translators through the use of a cloud based translation platform. Our translators are able to login simultaneously into projects that fit their language combination and provide translation service collaboratively - while also seeing the whole content for contextual purposes. This ability to simultaneously utilize multiple translators makes MotaWord exceptionally fast and highly accurate.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png",
+			"humanURL": "http://www.motaword.com",
+			"baseURL": "https://api.motaword.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/motaword/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"x-api-slug": "aws-data-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-data-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"x-api-slug": "google-apps-admin-sdk",
+			"description": "Administer domain resources, create reports, and manage subscriptions. Use the Directory API to create and manage users and groups for a domain, along with their aliases. Programmatically access the functionality found at the Admin console Organization and users tab. Use the Reports API to gain insights on content management with Google Drive activity reports. Audit administrator actions. Generate customer and user usage reports.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png",
+			"humanURL": "https://developers.google.com/admin-sdk/",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-apps-admin-sdk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Adsense",
+			"x-api-slug": "google-adsense",
+			"description": "AdSense is a free, simple way to make money online by placing ads on your website. Ads are reviewed to ensure they???re high quality and relevant to your content or audience, even when viewed on smartphones and tablets. The result? You can make more money online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png",
+			"humanURL": "https://developers.google.com/adsense/",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-adsense/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Analytics",
+			"x-api-slug": "google-analytics",
+			"description": "Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience. You can then share the insights that matter with your whole organization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png",
+			"humanURL": "https://www.google.com/analytics/#?modal_active=none",
+			"baseURL": "https://www.googleapis.com//analytics/v3",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Service Control",
+			"x-api-slug": "google-service-control",
+			"description": "Google Service Control is a Google Cloud Platform infrastructure service. It provides control plane functionality to managed services, such as logging, monitoring, and status checks. It is widely used by Google APIs and Google Cloud Endpoints. This page provides an overview of what it does and how it works.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-17 at 3.49.30 PM.png",
+			"humanURL": "https://cloud.google.com/service-control/overview",
+			"baseURL": "://servicecontrol.googleapis.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-service-control/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Service Management",
+			"x-api-slug": "google-service-management",
+			"description": "Google Service Management is an infrastructure service of Google Cloud Platform that manages other APIs and services, including Googles own Cloud Platform services and their APIs, and services created using Google Cloud Endpoints.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-icon.png",
+			"humanURL": "https://cloud.google.com/service-management/overview",
+			"baseURL": "://servicemanagement.googleapis.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-service-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure API Management",
+			"x-api-slug": "azure-api-management",
+			"description": "Use Azure API Management as a turnkey solution for publishing APIs to external and internal customers. Quickly create consistent and modern API gateways for existing back-end services hosted anywhere, secure and protect them from abuse and overuse, and get insights into usage and health. Plus, automate and scale developer onboarding to help get your API program up and running.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/api-management/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-api-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vestorly",
+			"x-api-slug": "vestorly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png",
+			"humanURL": "http://vestorly.com",
+			"baseURL": "https://staging.vestorly.com//api/v2",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vestorly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fire Browse",
+			"x-api-slug": "fire-browse",
+			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
+			"humanURL": "http://firebrowse.org",
+			"baseURL": "https://firebrowse.org//api/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/fire-browse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Automox",
+			"x-api-slug": "automox",
+			"description": "Patch any System, any Software, in Any Location with Automox. Our cloud-based patching management software was built for todays IT professionals.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28761-docs-automox-com.jpg",
+			"humanURL": "https://automox.com",
+			"baseURL": "https://console.automox.com//api",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/automox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vinli/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LiveChat",
+			"x-api-slug": "livechat",
+			"description": "LiveChat is an offline customer service software with live support, help desk software, and web analytics capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28877-developers-livechatinc-com.jpg",
+			"humanURL": "https://www.livechatinc.com/",
+			"baseURL": "https://api.livechatinc.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/livechat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xibo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WebTRIS",
+			"x-api-slug": "webtris",
+			"description": "The WebTRIS data available at http://webtris.highwaysengland.co.uk/ is available via an application programming interface (API) in JSON format. This is a free service and there is no need to register to use it. Developers can utilise the WebTRIS data to provide their own services, applications and websites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtris-traffic-flow-api.png",
+			"humanURL": "http://webtris.highwaysengland.co.uk/",
+			"baseURL": "https://webtris.highwaysengland.co.uk//api",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/webtris/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChainGenie",
+			"x-api-slug": "chaingenie",
+			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
+			"humanURL": "http://chaingenie.com",
+			"baseURL": "https://api.chaingenie.com//api/v1",
+			"tags": "Reports",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/chaingenie/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Reports",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Xero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Zencoder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/zencoder/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Site24x7",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/site24x7/apis.yaml"
+		},
+		{
+			"name": "Dyn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dyn/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "SocialReport.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/socialreport-com/apis.yaml"
+		},
+		{
+			"name": "TweetReach",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/tweetreach/apis.yaml"
+		},
+		{
+			"name": "Bugsnag",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/bugsnag/apis.yaml"
+		},
+		{
+			"name": "APImetrics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/apimetrics/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "Watchful",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/watchful/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "MotaWord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/motaword/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-data-pipeline/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-apps-admin-sdk/apis.yaml"
+		},
+		{
+			"name": "Google Adsense",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-adsense/apis.yaml"
+		},
+		{
+			"name": "Google Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-analytics/apis.yaml"
+		},
+		{
+			"name": "Google Service Control",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-service-control/apis.yaml"
+		},
+		{
+			"name": "Google Service Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/google-service-management/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure API Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-api-management/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Vestorly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vestorly/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Fire Browse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/fire-browse/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Automox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/automox/apis.yaml"
+		},
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/vinli/apis.yaml"
+		},
+		{
+			"name": "LiveChat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/livechat/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xibo/apis.yaml"
+		},
+		{
+			"name": "WebTRIS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/webtris/apis.yaml"
+		},
+		{
+			"name": "ChainGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/chaingenie/apis.yaml"
+		}
+	]
+}

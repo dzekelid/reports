@@ -7,272 +7,354 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: Reports
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clarity Accounting Get Reports
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports
+  x-api-slug: reports-get
   description: Get reports.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports
-  tags: Reports
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reports-get-openapi.md
-- name: Clarity Accounting X-related-model Reports
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports
+  x-api-slug: reports-xrelatedmodel
   description: X-related-model reports.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports
-  tags: Reports
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reports-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Agedpayablesbycontact
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Agedpayablesbycontact
+  x-api-slug: reportsagedpayablesbycontact-get
   description: Get reports agedpayablesbycontact.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/AgedPayablesByContact
-  tags: Reports,AgedPayablesByContact
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsagedpayablesbycontact-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Agedpayablesbycontact
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Agedpayablesbycontact
+  x-api-slug: reportsagedpayablesbycontact-xrelatedmodel
   description: X-related-model reports agedpayablesbycontact.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/AgedPayablesByContact
-  tags: Reports,AgedPayablesByContact
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsagedpayablesbycontact-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Agedreceivablesbycontact
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Agedreceivablesbycontact
+  x-api-slug: reportsagedreceivablesbycontact-get
   description: Get reports agedreceivablesbycontact.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/AgedReceivablesByContact
-  tags: Reports,AgedReceivablesByContact
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsagedreceivablesbycontact-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Agedreceivablesbycontact
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Agedreceivablesbycontact
+  x-api-slug: reportsagedreceivablesbycontact-xrelatedmodel
   description: X-related-model reports agedreceivablesbycontact.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/AgedReceivablesByContact
-  tags: Reports,AgedReceivablesByContact
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsagedreceivablesbycontact-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Balancesheet
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Balancesheet
+  x-api-slug: reportsbalancesheet-get
   description: Get reports balancesheet.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BalanceSheet
-  tags: Reports,BalanceSheet
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbalancesheet-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Balancesheet
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Balancesheet
+  x-api-slug: reportsbalancesheet-xrelatedmodel
   description: X-related-model reports balancesheet.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BalanceSheet
-  tags: Reports,BalanceSheet
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbalancesheet-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Bankstatement
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Bankstatement
+  x-api-slug: reportsbankstatement-get
   description: Get reports bankstatement.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BankStatement
-  tags: Reports,BankStatement
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbankstatement-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbankstatement-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Bankstatement
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Bankstatement
+  x-api-slug: reportsbankstatement-xrelatedmodel
   description: X-related-model reports bankstatement.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BankStatement
-  tags: Reports,BankStatement
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbankstatement-xrelatedmodel-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbankstatement-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Banksummary
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Banksummary
+  x-api-slug: reportsbanksummary-get
   description: Get reports banksummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BankSummary
-  tags: Reports,BankSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbanksummary-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbanksummary-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Banksummary
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Banksummary
+  x-api-slug: reportsbanksummary-xrelatedmodel
   description: X-related-model reports banksummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BankSummary
-  tags: Reports,BankSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbanksummary-xrelatedmodel-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbanksummary-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Budgetsummary
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Budgetsummary
+  x-api-slug: reportsbudgetsummary-get
   description: Get reports budgetsummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BudgetSummary
-  tags: Reports,BudgetSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbudgetsummary-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Budgetsummary
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Budgetsummary
+  x-api-slug: reportsbudgetsummary-xrelatedmodel
   description: X-related-model reports budgetsummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/BudgetSummary
-  tags: Reports,BudgetSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsbudgetsummary-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Executivesummary
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Executivesummary
+  x-api-slug: reportsexecutivesummary-get
   description: Get reports executivesummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/ExecutiveSummary
-  tags: Reports,ExecutiveSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsexecutivesummary-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Executivesummary
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Executivesummary
+  x-api-slug: reportsexecutivesummary-xrelatedmodel
   description: X-related-model reports executivesummary.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/ExecutiveSummary
-  tags: Reports,ExecutiveSummary
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsexecutivesummary-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Profitandloss
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Profitandloss
+  x-api-slug: reportsprofitandloss-get
   description: Get reports profitandloss.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/ProfitAndLoss
-  tags: Reports,ProfitAndLoss
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsprofitandloss-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Profitandloss
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Profitandloss
+  x-api-slug: reportsprofitandloss-xrelatedmodel
   description: X-related-model reports profitandloss.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/ProfitAndLoss
-  tags: Reports,ProfitAndLoss
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsprofitandloss-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Tenninetynine
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Tenninetynine
+  x-api-slug: reportstenninetynine-get
   description: Get reports tenninetynine.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/TenNinetyNine
-  tags: Reports,TenNinetyNine
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportstenninetynine-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Tenninetynine
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Tenninetynine
+  x-api-slug: reportstenninetynine-xrelatedmodel
   description: X-related-model reports tenninetynine.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/TenNinetyNine
-  tags: Reports,TenNinetyNine
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportstenninetynine-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Trialbalance
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Trialbalance
+  x-api-slug: reportstrialbalance-get
   description: Get reports trialbalance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/TrialBalance
-  tags: Reports,TrialBalance
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportstrialbalance-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Trialbalance
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Trialbalance
+  x-api-slug: reportstrialbalance-xrelatedmodel
   description: X-related-model reports trialbalance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/TrialBalance
-  tags: Reports,TrialBalance
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportstrialbalance-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Reports Report
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Reports Report
+  x-api-slug: reportsreportid-get
   description: Get reports report.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/{ReportID}
-  tags: Reports,ReportID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-get-openapi.md
-- name: Clarity Accounting X-related-model Reports Report
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Reports Report
+  x-api-slug: reportsreportid-xrelatedmodel
   description: X-related-model reports report.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Reports/{ReportID}
-  tags: Reports,ReportID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-xrelatedmodel-openapi.md
-- name: Clarity Accounting
-  x-api-slug: clarity-accounting
-  description: Xero is the QuickBooks alternative. Use Xero accounting software to
-    manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial
-    today!
+- name: Accounting - Get Reports Report
+  x-api-slug: reportsreportid-get
+  description: Get reports report.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
   baseURL: https://api.xero.com//api.xro/2.0
-  tags: Reports
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-get-openapi.md
+- name: Accounting - X-related-model Reports Report
+  x-api-slug: reportsreportid-xrelatedmodel
+  description: X-related-model reports report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-xrelatedmodel-openapi.md
+- name: Accounting - Get Reports Report
+  x-api-slug: reportsreportid-get
+  description: Get reports report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-get-openapi.md
+- name: Accounting - X-related-model Reports Report
+  x-api-slug: reportsreportid-xrelatedmodel
+  description: X-related-model reports report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-xrelatedmodel-openapi.md
+- name: Accounting - X-related-model Reports Report
+  x-api-slug: reportsreportid-xrelatedmodel
+  description: X-related-model reports report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-xrelatedmodel-openapi.md
+- name: Accounting - Get Reports Report
+  x-api-slug: reportsreportid-get
+  description: Get reports report.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reports/master/_listings/xero/reportsreportid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wordnik.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xero.stack.network
 - type: x-base
   url: https://api.xero.com
 - type: x-blog

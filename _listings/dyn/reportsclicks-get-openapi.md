@@ -44,6 +44,35 @@ paths:
         name: '[X-HeaderName]'
         description: Name of searchable custom X-header
       responses:
+        "":
+          description: ""
+        400:
+          description: Bad input parameter
+        401:
+          description: Bad or expired token
+        403:
+          description: Bad OAuth request (wrong consumer key, bad nonce, expired timestamp
+        404:
+          description: File or folder not found at the specified path
+        405:
+          description: Request method not expected (generally should be GET or POST)
+        429:
+          description: Your app is making too many requests and is being rate limited
+        503:
+          description: If the response includes the Retry-After header, this means
+            your OAuth 1
+        507:
+          description: User is over Dropbox storage quota
+        5xx:
+          description: Server error
+        Maximum record size:
+          description: 100 KiB
+        Maximum number of records per datastore:
+          description: "100,000"
+        Maximum datastore size:
+          description: 10 MiB
+        Maximum size of a delta:
+          description: 2 MiB
         200:
           description: OK
       tags:
